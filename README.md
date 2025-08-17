@@ -1,0 +1,2 @@
+# dotfiles
+This is the home I keep for dotfiles that I wish to share between systems. My philosophy for these dotfiles is to only include scripts and configurations that can be shared between Unix and Unix-like systems. Thus, the synchronization script `install.sh` should not use a specific package manager such as `brew`, `apt` or `dnf` to install dependencies but rather check for required dependencies and report if one is missing. This leaves the actual installation to the user.
